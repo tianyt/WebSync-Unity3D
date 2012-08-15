@@ -9,3 +9,5 @@ HttpTransferFactory.CreateHttpTransfer = () =>
 {
   return new WebSyncHttpTransfer();
 };
+
+If you are using the Unity Web Player, you will want to ensure you have a proper crossdomain.xml in your web root to avoid potential security exceptions related to cross-domain requests.
